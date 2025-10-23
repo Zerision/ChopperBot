@@ -9,13 +9,13 @@ import org.example.core.manager.Creeper;
  * @author Genius
  * @date 2023/09/03 13:10
  **/
-@Creeper(creeperName = "B站热门直播",
-        loadTask = BiliBiliHotLiveLoadTask.class,
-        creeperDescription = "爬取B站当前热门直播，按人气排行",
-        priority = 10,
-        group = ConstGroup.HOT_LIVE,
-        platform = ConstPool.BILIBILI
-)
+//@Creeper(creeperName = "B站热门直播",
+//        loadTask = BiliBiliHotLiveLoadTask.class,
+//        creeperDescription = "爬取B站当前热门直播，按人气排行",
+//        priority = 10,
+//        group = ConstGroup.HOT_LIVE,
+//        platform = ConstPool.BILIBILI
+//)
 public class BilibiliHotLiveConfig extends LoadHotModuleConfig{
 
 

@@ -8,6 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.springframework.stereotype.Component;
 
+import java.time.Duration;
 import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
@@ -26,9 +27,9 @@ public class Bilibili implements PlatformOperation {
     @Override
     public Set<Cookie> login(int id,String username) {
         try {
-            System.setProperty("webdriver.chrome.driver", "D:\\downLoad\\chromedriver_win32\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "C:\\Users\\zyc13\\Desktop\\chromedriver-win64\\chromedriver.exe");
             ChromeOptions options = new ChromeOptions();
-            options.setBinary("C:\\Program Files (x86)\\Chromebrowser\\Chrome.exe");
+            options.setBinary("C:\\Program Files\\Google\\Chrome\\Application\\Chrome.exe");
             ChromeDriver loginwebDriver = new ChromeDriver(options);
             loginwebDriver.get(URL); //
             loginwebDriver.manage().deleteAllCookies();

@@ -16,6 +16,7 @@
 			"BarrageConfig":true,
 			"BarrageEvent":true,
 			"BarrageFileListen":false,
+			"channel":true,
 			"LiveConfig":true,
 			"EmotionAnalysis":false,
 			"BarrageScoreCurve":true,
@@ -40,5 +41,5 @@
 			"OpenAPI":true
 		}
 	},
-	"updateTime":"2023-11-19 22:38:29"
+	"updateTime":"2025-10-22 17:56:10"
 }
